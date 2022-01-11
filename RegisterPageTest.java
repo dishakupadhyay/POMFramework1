@@ -42,7 +42,7 @@ public class RegisterPageTest {
         Assert.assertTrue(registerPage.isConfirmPasswordColumnPresent(),"Confirm Password column missing");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 4)
     public void registerTest() throws InterruptedException{
         registerPage.doRegister(prop.getProperty("firstname"), prop.getProperty("lastname"),
                 prop.getProperty("day"),prop.getProperty("month"), prop.getProperty("year"), prop.getProperty("Email")
